@@ -1,0 +1,50 @@
+.header {
+    background-color: black;
+    box-shadow: inset;
+    -moz-box-shadow: 0px 30px 30px #50045f;
+    -webkit-box-shadow: 0px 10px 30px #50045f;
+    height: 100px;
+}
+
+.head {
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    height: 50px;
+    padding: 10px;
+}
+
+.logo1 {
+    color: #4b4b4f;
+    font-weight: bolder;
+}
+
+.logo2 {
+    color: #850c9d;
+    font-weight: bolder;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.form {
+    background-color: rgb(215, 230, 245);
+    padding: 12px;
+    border-radius: 5px;
+}
