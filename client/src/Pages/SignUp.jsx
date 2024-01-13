@@ -65,7 +65,7 @@ export default function SignUp() {
         </div>
         <div className='div2'>
           <p>Have an account? </p>
-          <Link to={"/sign-in"} >
+          <Link to={"/sign-in"} style={{textDecoration: 'none'}}>
             <span className='link1'>Sign In</span>
           </Link>
         </div>
