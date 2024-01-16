@@ -5,6 +5,7 @@ import music from './music1.avif';
 import logo from './logo.png';
 import { useDispatch, useSelector } from 'react-redux';
 import { signInStart, signInFailure, signInSuccess } from '../redux/user/userSlice';
+import OAuth from '../components/OAuth';
 
 export default function SignIn() {
   const [formData, setFormData] = useState({});
@@ -60,6 +61,8 @@ export default function SignIn() {
             <input type='text' placeholder='Username' className='input1' id='username' onChange={handleChange}/>
             <input type='password' placeholder='Password' className='input1' id='password' onChange={handleChange}/>
             <button disabled={loading} className='btn'>{loading ? 'LOADING...' : 'SIGN UP'}</button>
+            <p className='con'>else continue with</p>
+            <OAuth className='auth'/>
           </form>
         </div>
         <div className='div2'>

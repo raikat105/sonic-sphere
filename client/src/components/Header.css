@@ -48,3 +48,12 @@
     padding: 12px;
     border-radius: 5px;
 }
+
+.google {
+    width: 100px;
+}
+
+.google:hover {
+    opacity: 90%;
+    cursor: pointer;
+}

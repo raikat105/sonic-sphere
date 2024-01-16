@@ -3,6 +3,7 @@ import './SignUp.css';
 import {Link, useNavigate} from 'react-router-dom';
 import music from './music.avif';
 import logo from './logo.png';
+import OAuth from '../components/OAuth';
 
 export default function SignUp() {
   const [formData, setFormData] = useState({});
@@ -61,6 +62,7 @@ export default function SignUp() {
             <input type='email' placeholder='Email' className='input1' id='email' onChange={handleChange}/>
             <input type='password' placeholder='Password' className='input1' id='password' onChange={handleChange}/>
             <button disabled={loading} className='btn'>{loading ? 'LOADING...' : 'SIGN UP'}</button>
+            <OAuth/>
           </form>
         </div>
         <div className='div2'>
